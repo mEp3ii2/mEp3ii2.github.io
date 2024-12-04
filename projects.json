@@ -1,22 +1,22 @@
 [
     {
         "id": "MAD_ASS2_2",
-        "title": "MAD Assignment 2.2",
-        "description": "Mobile Application Development (MAD) Assignment 2.2. Focuses on advanced UI and data management techniques.",
+        "title": "Calorie/Meal tracking app",
+        "description": "This calorie meal tracking app was the final project for our Mobile Application Development unit. It showcased advanced techniques like threading, Room/Database integration, API requests, and photo uploads to cloud storage. Designed with user experience and efficiency in mind, the app allowed users to log meals, track calories, and visually document their meals with photos.",
         "image": "assets/images/MAD_ASS2_2.jpg",
         "link": "https://github.com/mEp3ii2/MAD_ASS2.2"
     },
     {
         "id": "DC_Assignment2C",
         "title": "Distributed Computing Assignment 2C",
-        "description": "Part C of the Distributed Computing assignment. Implements a peer-to-peer application for individual work.",
+        "description": "This project focused on developing a peer-to-peer application for job sharing, where clients could distribute and execute Python-based jobs using IronPython within a .NET framework. The application demonstrated robust networking capabilities and seamless integration of cross-platform technologies, tackling the challenge of executing Python code within a distributed .NET environment.",
         "image": "assets/images/DC_Assignment2C.jpg",
         "link": "https://github.com/mEp3ii2/DC_Assignment2C"
     },
     {
         "id": "SAED_Assignment2",
         "title": "SAED Assignment 2",
-        "description": "Second assignment for Software Architecture and Engineering Design (SAED), exploring threading to simulate air traffic.",
+        "description": "This assignment showcased our understanding of multithreading in a Java environment through an air traffic simulation. It involved managing concurrent tasks, ensuring synchronization, and simulating realistic air traffic patterns. Additionally, it marked my first experience with Java UI development, adding a visual dimension to the project and enhancing user interaction.",
         "image": "assets/images/SAED_Assignment2.jpg",
         "link": "https://github.com/mEp3ii2/SAED_Assignment2"
     },
