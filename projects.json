@@ -16,49 +16,49 @@
     {
         "id": "SAED_Assignment2",
         "title": "SAED Assignment 2",
-        "description": "This assignment showcased our understanding of multithreading in a Java environment through an air traffic simulation. It involved managing concurrent tasks, ensuring synchronization, and simulating realistic air traffic patterns. Additionally, it marked my first experience with Java UI development, adding a visual dimension to the project and enhancing user interaction.",
+        "description": "A 2D maze and puzzle game engine designed and implemented to meet specific requirements. This project leverages Gradle for build automation, custom plugins, and scripts, alongside a domain-specific language (DSL) for defining game configurations. The engine supports internationalization, allowing for a localized gameplay experience.",
         "image": "assets/images/SAED_Assignment2.jpg",
         "link": "https://github.com/mEp3ii2/SAED_Assignment2"
     },
     {
         "id": "GameClient",
         "title": "Game Client",
-        "description": "Game client project implementing multiplayer functionality and client-server communication.",
+        "description": "A mock online gaming lobby chat room application developed using .NET and Windows Communication Foundation (WCF). This project simulates a real-time multiplayer gaming environment where players can join and interact through a Windows Presentation Foundation (WPF) client. The server facilitates multiple rooms where players with similar interests can communicate, share files, and send private messages.\n\nKey Features:\n\n- User Management: Ensures unique player logins and prevents duplicate usernames.\n- Lobby Room Management: Handles the creation, joining, and leaving of rooms dynamically.\n- Real-Time Messaging: Enables group chat and private messaging within lobby rooms.\n- File Sharing: Allows players to share image and text files securely within their rooms.\n- Multithreading: Implements threaded operations to improve responsiveness and simulate real-time communication.\n\nThis project demonstrates core concepts of client-server architecture, multithreading, and GUI-based application design, offering a practical introduction to WCF and advanced C# programming."
         "image": "assets/images/GameClient.jpg",
         "link": "https://github.com/mEp3ii2/GameClient"
     },
     {
         "id": "SAED_Assignment1",
         "title": "SAED Assignment 1",
-        "description": "First assignment for SAED, focusing on threading and air traffic simulation.",
+        "description": "This assignment showcased our understanding of multithreading in a Java environment through an air traffic simulation. It involved managing concurrent tasks, ensuring synchronization, and simulating realistic air traffic patterns. Additionally, it marked my first experience with Java UI development, adding a visual dimension to the project and enhancing user interaction.",
         "image": "assets/images/SAED_Assignment1.jpg",
         "link": "https://github.com/mEp3ii2/SAED_Assignment1"
     },
     {
         "id": "ISYS_Assignment",
         "title": "ISYS Assignment",
-        "description": "Final assignment for Database Systems (ISYS).",
+        "description": "The final assignment for the Database Systems (ISYS) unit, focusing on the design and implementation of a database to explore Nobel Prize winners. This project involved creating a relational database, populating it with sample data, and writing optimized queries to derive meaningful insights, such as identifying countries with the most awards, affiliations of laureates, and other interesting patterns. The work also included comprehensive documentation covering database design, query implementation, results analysis, and a reflective evaluation.",
         "image": "assets/images/ISYS_Assignment.jpg",
         "link": "https://github.com/mEp3ii2/ISYS_Assignment"
     },
     {
         "id": "UCP_Assignment2",
         "title": "UCP Assignment 2",
-        "description": "Second assignment for the User-Centered Programming (UCP) class, focusing on UI and interaction design.",
+        "description": "Second and final assignment for my UCP unit, demonstrating proficiency in C and Unix by developing a hybrid Crossy Road/Snake game. The game supports customizable setups by reading configuration files, user interaction through arrow key inputs, and features a linked list implementation to enable an undo functionality for player movements. This project highlights skills in low-level programming, file handling, and dynamic data structures.",
         "image": "assets/images/UCP_Assignment2.jpg",
         "link": "https://github.com/mEp3ii2/UCP_Assignment2"
     },
     {
         "id": "DSA_Assignment",
         "title": "DSA Assignment",
-        "description": "Final assignment for Data Structures and Algorithms (Semester 1, 2023).",
+        "description": "The final assignment for the Data Structures and Algorithms (DSA) unit involved developing an application to monitor bushfires using unmanned aerial vehicles (UAVs). The project showcased the practical application of core data structures, including graphs, doubly linked lists, heaps, and hash tables, to solve real-world problems. Key features included creating a graph to represent the area, implementing BFS and DFS for data traversal, managing risk levels with a heap, and optimizing UAV flight paths using Dijkstra's algorithm. The solution also supported interactive operations for graph modification and demonstrated the efficiency of hash tables for data retrieval.",
         "image": "assets/images/DSA_Assignment.jpg",
         "link": "https://github.com/mEp3ii2/DSA_Assignment"
     },
     {
         "id": "MediaPlayer",
         "title": "Media Player Assignment",
-        "description": "An assignment focusing on creating a media player application with music and video playback functionality.",
+        "description": "A simple media player application developed during my early days of coding at TAFE. Built using C#, the application focuses on playing MP3 files with a straightforward and user-friendly interface. This project served as an introduction to working with multimedia APIs and understanding basic application development concepts.",
         "image": "assets/images/MediaPlayer.jpg",
         "link": "https://github.com/mEp3ii2/MediaPlayer"
     }
