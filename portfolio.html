@@ -30,81 +30,10 @@
 
 				<section id="two">
 					
-					<div class="row">
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="project.html?id=MAD_ASS2_2" class="image fit thumb">
-								<img src="images/madAss2.png" alt="Calorie/Meal tracking app" />
-							</a>
-							<h3>Calorie/Meal tracking app</h3>
-							<p>This calorie meal tracking app showcased advanced techniques like threading, Room integration, and cloud storage.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="project.html?id=DC_Assignment2C" class="image fit thumb">
-								<img src="images/DC_C.PNG" alt="Distributed Computing Assignment 2C" />
-							</a>
-							<h3>Distributed Computing Assignment 2C</h3>
-							<p>A peer-to-peer application for job sharing, integrating Python jobs in a .NET framework using IronPython.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="project.html?id=SAED_Assignment2" class="image fit thumb">
-								<img src="images/SAED_Assignment2.jpg" alt="SAED Assignment 2" />
-							</a>
-							<h3>SAED Assignment 2</h3>
-							<p>A 2D maze and puzzle game engine with Gradle automation, DSL configurations, and internationalization.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="project.html?id=GameClient" class="image fit thumb">
-								<img src="images/gameClient2.PNG" alt="Game Client" />
-							</a>
-							<h3>Game Client</h3>
-							<p>A mock online gaming lobby chat room with WPF and WCF for real-time communication and file sharing.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="project.html?id=SAED_Assignment1" class="image fit thumb">
-								<img src="images/SAED_Assignment1.jpg" alt="SAED Assignment 1" />
-							</a>
-							<h3>SAED Assignment 1</h3>
-							<p>A Java multithreading project simulating air traffic, showcasing synchronization and Java UI development.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="project.html?id=ISYS_Assignment" class="image fit thumb">
-								<img src="images/sql.jpg" alt="ISYS Assignment" />
-							</a>
-							<h3>ISYS Assignment</h3>
-							<p>Database design to explore Nobel Prize winners, featuring relational database setup and optimized queries.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="project.html?id=UCP_Assignment2" class="image fit thumb">
-								<img src="images/UCP_Assignment2.jpg" alt="UCP Assignment 2" />
-							</a>
-							<h3>UCP Assignment 2</h3>
-							<p>A hybrid Crossy Road/Snake game using C and Unix with linked list undo functionality.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="project.html?id=DSA_Assignment" class="image fit thumb">
-								<img src="images/DSA_Assignment.jpg" alt="DSA Assignment" />
-							</a>
-							<h3>DSA Assignment</h3>
-							<p>An application to monitor bushfires using UAVs, featuring graphs, heaps, hash tables, and Dijkstra's algorithm.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="project.html?id=MediaPlayer" class="image fit thumb">
-								<img src="images/medialPlayer.JPG" alt="Media Player Assignment" />
-							</a>
-							<h3>Media Player Assignment</h3>
-							<p>A simple MP3 player built with C#, introducing multimedia APIs and UI development.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="project.html?id=KellyPoolApp" class="image fit thumb">
-								<img src="images/kelly_pool_logo.png" alt="KellyPool Mobile App" />
-							</a>
-							<h3>Kelly Pool Mobile App</h3>
-							<p>Simple Java Mobile App for setting up and running Kelly Pool Games with friends</p>
-						</article>
+					<div class="row" id="projects-container">
+						<!-- Projects loaded in here-->
 					</div>
-
 				</section>			
-
 			</div>
 
 		<!-- Footer -->
@@ -127,6 +56,25 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script>
+				$(document).ready(function() {
+					$.getJSON('projects.json', function(projects) {
+						const $container = $('#projects-container');
+	
+						$.each(projects, function(index, project) {
+							const projectHTML = `
+								<article class="col-6 col-12-xsmall work-item">
+									<a href="project.html?id=${project.id}" class="image fit thumb">
+										<img src="${project.image}" alt="${project.title}" />
+									</a>
+									<h3>${project.title}</h3>
+									<p>${project.description}</p>
+								</article>
+							`;
+							$container.append(projectHTML);
+						});
+					});
+				});
+			</script>
 	</body>
 </html>

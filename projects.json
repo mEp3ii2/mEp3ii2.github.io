@@ -1,4 +1,25 @@
-[
+[   
+    {
+        "id": "KellyPoolApp",
+        "title": "KellyPool App",
+        "description": "The Kelly Pool app is a Java-based mobile application I’ve been developing to bring the classic Kelly Pool game to life. The app allows users to easily set up games by adding players, automatically assigning them balls, and tracking the progress of the game. As the game unfolds, users can update the app by selecting balls that have been sunk, keeping the gameplay smooth and organized. While the core functionality is in place, the app is still a work in progress. I’m focused on enhancing features and refining the user interface to ensure a seamless and engaging experience for Kelly Pool enthusiasts. This project reflects my passion for mobile development and my dedication to creating practical, user-friendly applications.",          
+        "image":"images/kelly_pool_logo.png",
+        "link":"https://github.com/mEp3ii2/KellyPoolApp"
+    },
+    {
+        "id": "GameClient",
+        "title": "Game Client",
+        "description": "A mock online gaming lobby chat room application developed using .NET and Windows Communication Foundation (WCF). This project simulates a real-time multiplayer gaming environment where players can join and interact through a Windows Presentation Foundation (WPF) client. The server facilitates multiple rooms where players with similar interests can communicate, share files, and send private messages.\n\nKey Features:\n\n- User Management: Ensures unique player logins and prevents duplicate usernames.\n- Lobby Room Management: Handles the creation, joining, and leaving of rooms dynamically.\n- Real-Time Messaging: Enables group chat and private messaging within lobby rooms.\n- File Sharing: Allows players to share image and text files securely within their rooms.\n- Multithreading: Implements threaded operations to improve responsiveness and simulate real-time communication.\n\nThis project demonstrates core concepts of client-server architecture, multithreading, and GUI-based application design, offering a practical introduction to WCF and advanced C# programming.",
+        "image": "images/gameClient2.PNG",
+        "link": "https://github.com/mEp3ii2/GameClient"
+    },
+    {
+        "id": "SAED_Assignment1",
+        "title": "Air Traffic Simulation",
+        "description": "This assignment showcased our understanding of multithreading in a Java environment through an air traffic simulation. It involved managing concurrent tasks, ensuring synchronization, and simulating realistic air traffic patterns. Additionally, it marked my first experience with Java UI development, adding a visual dimension to the project and enhancing user interaction.",
+        "image": "images/SAED_Assignment1.png",
+        "link": "https://github.com/mEp3ii2/SAED_Assignment1"
+    },
     {
         "id": "MAD_ASS2_2",
         "title": "Calorie/Meal tracking app",
@@ -14,29 +35,24 @@
         "link": "https://github.com/mEp3ii2/DC_Assignment2C"
     },
     {
+        "id": "Sudoku_Checker",
+        "title": "Sudoku Solver",
+        "description": ": Built a 9x9 Sudoku Solution verification program in C, leveraging memory management and kernel-level threads for concurrent calculations and data processing. Made for an assignment for my Operating Systems Unit",
+        "image": "images/Sudoku_Checker.PNG",
+        "link": "https://github.com/mEp3ii2/Sudoku_Checker"
+        
+    },
+    {
         "id": "SAED_Assignment2",
-        "title": "SAED Assignment 2",
+        "title": "Maze Game",
         "description": "A 2D maze and puzzle game engine designed and implemented to meet specific requirements. This project leverages Gradle for build automation, custom plugins, and scripts, alongside a domain-specific language (DSL) for defining game configurations. The engine supports internationalization, allowing for a localized gameplay experience.",
-        "image": "images/SAED_Assignment2.png",
+        "image": "images/mazeGame.JPG",
         "link": "https://github.com/mEp3ii2/SAED_Assignment2"
     },
-    {
-        "id": "GameClient",
-        "title": "Game Client",
-        "description": "A mock online gaming lobby chat room application developed using .NET and Windows Communication Foundation (WCF). This project simulates a real-time multiplayer gaming environment where players can join and interact through a Windows Presentation Foundation (WPF) client. The server facilitates multiple rooms where players with similar interests can communicate, share files, and send private messages.\n\nKey Features:\n\n- User Management: Ensures unique player logins and prevents duplicate usernames.\n- Lobby Room Management: Handles the creation, joining, and leaving of rooms dynamically.\n- Real-Time Messaging: Enables group chat and private messaging within lobby rooms.\n- File Sharing: Allows players to share image and text files securely within their rooms.\n- Multithreading: Implements threaded operations to improve responsiveness and simulate real-time communication.\n\nThis project demonstrates core concepts of client-server architecture, multithreading, and GUI-based application design, offering a practical introduction to WCF and advanced C# programming.",
-        "image": "images/gameClient2.PNG",
-        "link": "https://github.com/mEp3ii2/GameClient"
-    },
-    {
-        "id": "SAED_Assignment1",
-        "title": "SAED Assignment 1",
-        "description": "This assignment showcased our understanding of multithreading in a Java environment through an air traffic simulation. It involved managing concurrent tasks, ensuring synchronization, and simulating realistic air traffic patterns. Additionally, it marked my first experience with Java UI development, adding a visual dimension to the project and enhancing user interaction.",
-        "image": "images/SAED_Assignment1.png",
-        "link": "https://github.com/mEp3ii2/SAED_Assignment1"
-    },
+    
     {
         "id": "ISYS_Assignment",
-        "title": "ISYS Assignment",
+        "title": "Nobel Prize Database",
         "description": "The final assignment for the Database Systems (ISYS) unit, focusing on the design and implementation of a database to explore Nobel Prize winners. This project involved creating a relational database, populating it with sample data, and writing optimized queries to derive meaningful insights, such as identifying countries with the most awards, affiliations of laureates, and other interesting patterns. The work also included comprehensive documentation covering database design, query implementation, results analysis, and a reflective evaluation.",
         "image": "images/sql.jpg",
         "link": "https://github.com/mEp3ii2/ISYS_Assignment"
@@ -45,28 +61,22 @@
         "id": "UCP_Assignment2",
         "title": "UCP Assignment 2",
         "description": "Second and final assignment for my UCP unit, demonstrating proficiency in C and Unix by developing a hybrid Crossy Road/Snake game. The game supports customizable setups by reading configuration files, user interaction through arrow key inputs, and features a linked list implementation to enable an undo functionality for player movements. This project highlights skills in low-level programming, file handling, and dynamic data structures.",
-        "image": "images/UCP_Assignment2.png",
+        "image": "images/UCP_ASSIGNMENT.png",
         "link": "https://github.com/mEp3ii2/UCP_Assignment2"
     },
     {
         "id": "DSA_Assignment",
         "title": "DSA Assignment",
         "description": "The final assignment for the Data Structures and Algorithms (DSA) unit involved developing an application to monitor bushfires using unmanned aerial vehicles (UAVs). The project showcased the practical application of core data structures, including graphs, doubly linked lists, heaps, and hash tables, to solve real-world problems. Key features included creating a graph to represent the area, implementing BFS and DFS for data traversal, managing risk levels with a heap, and optimizing UAV flight paths using Dijkstra's algorithm. The solution also supported interactive operations for graph modification and demonstrated the efficiency of hash tables for data retrieval.",
-        "image": "images/DSA_Assignment.png",
+        "image": "images/DSA.Assignment.png",
         "link": "https://github.com/mEp3ii2/DSA_Assignment"
     },
+    
     {
         "id": "MediaPlayer",
         "title": "Media Player Assignment",
         "description": "A simple media player application developed during my early days of coding at TAFE. Built using C#, the application focuses on playing MP3 files with a straightforward and user-friendly interface. This project served as an introduction to working with multimedia APIs and understanding basic application development concepts.",
         "image": "images/mediaPlayer.JPG",
         "link": "https://github.com/mEp3ii2/MediaPlayer"
-    },
-    {
-        "id": "KellyPoolApp",
-        "title": "KellyPool App",
-        "description": "The Kelly Pool app is a Java-based mobile application I’ve been developing to bring the classic Kelly Pool game to life. The app allows users to easily set up games by adding players, automatically assigning them balls, and tracking the progress of the game. As the game unfolds, users can update the app by selecting balls that have been sunk, keeping the gameplay smooth and organized. While the core functionality is in place, the app is still a work in progress. I’m focused on enhancing features and refining the user interface to ensure a seamless and engaging experience for Kelly Pool enthusiasts. This project reflects my passion for mobile development and my dedication to creating practical, user-friendly applications.",          
-        "image":"images/kelly_pool_logo.png",
-        "link":"https://github.com/mEp3ii2/KellyPoolApp"
     }
 ]
