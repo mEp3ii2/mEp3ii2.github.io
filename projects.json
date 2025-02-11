@@ -3,8 +3,8 @@
         "id": "KellyPoolApp",
         "title": "KellyPool App",
         "description": "The Kelly Pool app is a Java-based mobile application I’ve been developing to bring the classic Kelly Pool game to life. The app allows users to easily set up games by adding players, automatically assigning them balls, and tracking the progress of the game. As the game unfolds, users can update the app by selecting balls that have been sunk, keeping the gameplay smooth and organized. While the core functionality is in place, the app is still a work in progress. I’m focused on enhancing features and refining the user interface to ensure a seamless and engaging experience for Kelly Pool enthusiasts. This project reflects my passion for mobile development and my dedication to creating practical, user-friendly applications.",          
-        "image":"images/kelly_pool_logo.png",
-        "link":"https://github.com/mEp3ii2/KellyPoolApp"
+        "image": "images/kelly_pool_logo.png",
+        "link": "https://github.com/mEp3ii2/KellyPoolApp"
     },
     {
         "id": "GameClient",
@@ -17,7 +17,7 @@
         "id": "SAED_Assignment1",
         "title": "Air Traffic Simulation",
         "description": "This assignment showcased our understanding of multithreading in a Java environment through an air traffic simulation. It involved managing concurrent tasks, ensuring synchronization, and simulating realistic air traffic patterns. Additionally, it marked my first experience with Java UI development, adding a visual dimension to the project and enhancing user interaction.",
-        "image": "images/SAED_Assignment1.png",
+        "image": "images/SAED_Assignment1.PNG",
         "link": "https://github.com/mEp3ii2/SAED_Assignment1"
     },
     {
@@ -38,7 +38,7 @@
         "id": "Sudoku_Checker",
         "title": "Sudoku Solver",
         "description": ": Built a 9x9 Sudoku Solution verification program in C, leveraging memory management and kernel-level threads for concurrent calculations and data processing. Made for an assignment for my Operating Systems Unit",
-        "image": "images/Sudoku_Checker.PNG",
+        "image": "images/Sudoku_Checker.png",
         "link": "https://github.com/mEp3ii2/Sudoku_Checker"
         
     },
@@ -61,7 +61,7 @@
         "id": "UCP_Assignment2",
         "title": "UCP Assignment 2",
         "description": "Second and final assignment for my UCP unit, demonstrating proficiency in C and Unix by developing a hybrid Crossy Road/Snake game. The game supports customizable setups by reading configuration files, user interaction through arrow key inputs, and features a linked list implementation to enable an undo functionality for player movements. This project highlights skills in low-level programming, file handling, and dynamic data structures.",
-        "image": "images/UCP_ASSIGNMENT.png",
+        "image": "images/UCP_ASSIGNMENT.PNG",
         "link": "https://github.com/mEp3ii2/UCP_Assignment2"
     },
     {
