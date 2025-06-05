@@ -37,7 +37,7 @@
     {
         "id": "Sudoku_Checker",
         "title": "Sudoku Solver",
-        "description": ": Built a 9x9 Sudoku Solution verification program in C, leveraging memory management and kernel-level threads for concurrent calculations and data processing. Made for an assignment for my Operating Systems Unit",
+        "description": " Built a 9x9 Sudoku Solution verification program in C, leveraging memory management and kernel-level threads for concurrent calculations and data processing. Made for an assignment for my Operating Systems Unit",
         "image": "images/Sudoku_Checker.png",
         "link": "https://github.com/mEp3ii2/Sudoku_Checker"
         
